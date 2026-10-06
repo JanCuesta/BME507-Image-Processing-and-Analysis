@@ -1,0 +1,11 @@
+device=cuda
+gpu=Tesla T4
+image_size=256
+batch_size=8
+max_epochs=15
+learning_rate=0.001
+train_images=159
+validation_images=40
+test_images=48
+best_experiment=augmented
+class_names=outside_body,chest_area,heart,right_lung,left_lung

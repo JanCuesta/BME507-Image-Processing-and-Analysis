@@ -1,0 +1,9 @@
+device=cuda
+gpu=Tesla T4
+image_size=256
+test_images=48
+task6_model=augmented
+organs=heart,right_lung,left_lung
+method_a=bounding box from raw Task 6 predicted mask
+method_b=bounding box after largest connected component postprocessing
+primary_metric=bounding-box IoU

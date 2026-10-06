@@ -1,0 +1,9 @@
+device=cuda
+gpu=Tesla T4
+image_size=256
+batch_size=4
+max_epochs=20
+learning_rate=0.001
+train_images=40
+validation_images=10
+test_images=10
